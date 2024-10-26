@@ -5,21 +5,18 @@ import { textinput } from './components/textinput';
 import { option } from './components/option';
 import { TableComponent } from './components/leaderboard';
 import { hint } from './components/hint';
+import Quiz from './pages/QuizPage';
 
 
 function App() {
   return (
     <div className="App">
       <div className='main'>
-        {title('q1')} {}
-        <p>Ramdom question</p>
-        {option('option 1')} {}
+        {title("Quizzy!")}
+        <p>Improve your general knowledge in this fun and interactive trivia game!</p>
+        {navigationButton('Signup')}
         <br></br>
-        {option('option 1')} {}
-        <br></br>
-        {option('option 1')} {}
-        <br></br>
-        {option('option 1')} {}
+        {navigationButton('Login')}
       </div>
     </div>
   );

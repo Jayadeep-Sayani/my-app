@@ -1,7 +1,10 @@
-import React from 'react'
+// In ./components/option.js
+import React from 'react';
 
-export const option = (option) => {
-  return (
-    <button className='option'>{option}</button>
-  )
-}
+export const Option = ({ text, onClick }) => {
+    return (
+        <button className="option" onClick={onClick}>
+            {text}
+        </button>
+    );
+};

@@ -13,9 +13,7 @@ function MainPage() {
       <div className='main'>
         {title("Quizzy!")}
         <p>Improve your general knowledge in this fun and interactive trivia game!</p>
-        {navigationButton('Signup')}
-        <br></br>
-        {navigationButton('Login')}
+        {navigationButton('Get Started')}
       </div>
     </div>
   );

@@ -11,9 +11,11 @@ function HomePage() {
   return (
     <div className="App">
       <div className='main'>
-        {title('Play a Game')} {}
+      {title('Play a Game')} {}
         <p>Enter a topic and press the play button to start a new game!</p>
         {textinput('Enter your topic...')} {}
+        <br></br>
+        <input type='number' min={1} max={4}></input>
         <br></br>
         {navigationButton('Enter a Game')} {}
         <br></br>
