@@ -5,14 +5,11 @@ import { textinput } from './components/textinput';
 import { option } from './components/option';
 import { TableComponent } from './components/leaderboard';
 import { hint } from './components/hint';
-import Quiz from './pages/QuizPage';
 
 
-function App() {
+function TutorialPage() {
   return (
-    <div className="App">
-      <div className='main'>
-      <div className="TutorialPage">
+    <div className="TutorialPage">
       <div className='main'>
         {title("Tutorial")}
         <br></br>
@@ -30,9 +27,7 @@ function App() {
         {navigationButton('< Back')}
       </div>
     </div>
-      </div>
-    </div>
   );
 }
 
-export default App;
+export default TutorialPage;
