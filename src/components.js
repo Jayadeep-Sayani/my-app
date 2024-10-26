@@ -7,18 +7,17 @@ import { TableComponent } from './components/leaderboard';
 import { hint } from './components/hint';
 
 
-function App() {
+function Components() {
   return (
-    <div className="App">
-      <div className='main'>
-        {title("Quizzy!")}
-        <p>Improve your general knowledge in this fun and interactive trivia game!</p>
-        {navigationButton('Signup')}
-        <br></br>
-        {navigationButton('Login')}
-      </div>
-    </div>
+    <div className="Components">
+      {title('My Awesome Title')}  {}
+      {textinput('Enter a topic...')} {}
+      {navigationButton('Signup')} {}
+      {option('Option 1')} {}
+      {TableComponent()} {}
+      {hint()} {}
+    </div>    
   );
 }
 
-export default App;
+export default Components;
