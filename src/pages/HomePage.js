@@ -7,7 +7,7 @@ import { TableComponent } from './components/leaderboard';
 import { hint } from './components/hint';
 
 
-function App() {
+function HomePage() {
   return (
     <div className="App">
       <div className='main'>
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

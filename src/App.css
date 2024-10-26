@@ -15,7 +15,6 @@
 }
 
 .main {
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,8 +38,6 @@
 .nav-button:hover {
   background: #4e42f4;
 }
-
-
 
 .textinput {
   display: block;
@@ -73,7 +70,6 @@
   background-color: #ccc;
 }
 
-
 thead {
   background-color: #0d09ec;
   color: #fff;
@@ -103,4 +99,14 @@ p {
   margin-bottom: 40px;
   font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
+}
+
+.lead button {
+  background-color: #e16100;
+  color: #000;
+}
+
+.lead button:hover {
+  background-color: #ff6f00;
+  color: #000;
 }

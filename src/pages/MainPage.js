@@ -7,22 +7,18 @@ import { TableComponent } from './components/leaderboard';
 import { hint } from './components/hint';
 
 
-function App() {
+function MainPage() {
   return (
-    <div className="App">
+    <div className="MainPage">
       <div className='main'>
-        {title('Play a Game')} {}
-        <p>Enter a topic and press the play button to start a new game!</p>
-        {textinput('Enter your topic...')} {}
+        {title("Quizzy!")}
+        <p>Improve your general knowledge in this fun and interactive trivia game!</p>
+        {navigationButton('Signup')}
         <br></br>
-        {navigationButton('Enter a Game')} {}
-        <br></br>
-        <div className='lead'>
-          {navigationButton('Leaderboard')} {}
-        </div>
+        {navigationButton('Login')}
       </div>
     </div>
   );
 }
 
-export default App;
+export default MainPage;
